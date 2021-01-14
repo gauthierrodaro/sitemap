@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gauthierrodaro/sitemap/compare/v1.1.0...v1.1.1) (2021-01-14)
+
+
+### Bug Fixes
+
+* issue in the script ([bedb153](https://github.com/gauthierrodaro/sitemap/commit/bedb153cdbf9c89b62f2c7a7d634b8d853be0761))
+
 # [1.1.0](https://github.com/gauthierrodaro/sitemap/compare/v1.0.0...v1.1.0) (2021-01-14)
 
 
