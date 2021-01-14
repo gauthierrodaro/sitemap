@@ -1,10 +1,9 @@
-#!/usr/bin/env node
 const fs = require("fs")
 
 const globby = require("globby")
 const prettier = require("prettier")
 
-module.export = {
+module.exports = {
   genSitemap: async (url) => {
     const pages = await globby(["src/pages/*.{js,tsx}"])
 
@@ -12,13 +11,19 @@ module.export = {
         <?xml version="1.0" encoding="UTF-8"?>
         <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             ${pages
-              .map((page) => {
-                const path = page.replace(".tsx", "").replace(".js", "")
+              .map((page) =>
+                page
+                  .replace("src/pages", "")
+                  .replace(".tsx", "")
+                  .replace(".js", "")
+              )
+              .filter((path) => !["/_app", "/_document"].includes(path))
+              .map((path) => {
                 const route = path === "/index" ? "" : path
 
                 return `
                         <url>
-                            <loc>${`https://${url}${route}`}</loc>
+                            <loc>${`${url}${route}`}</loc>
                         </url>
                     `
               })
