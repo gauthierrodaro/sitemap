@@ -2,10 +2,7 @@
   "name": "@gaut/sitemap",
   "version": "1.0.0",
   "description": "Script to generate sitemap for Next.js projects",
-  "main": "bin/index.js",
-  "bin": {
-    "gen-sitemap": "./bin/index.js"
-  },
+  "main": "src/index.js",
   "repository": "https://github.com/gauthierrodaro/sitemap",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +12,10 @@
   },
   "author": "Gauthier Rodaro",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "globby": "^11.0.2",
+    "prettier": "^2.2.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
