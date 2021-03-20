@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/gauthierrodaro/sitemap/compare/v1.2.0...v1.2.1) (2021-03-20)
+
+
+### Bug Fixes
+
+* public in mdx issue ([355c5cd](https://github.com/gauthierrodaro/sitemap/commit/355c5cdd078288ac9c613525be8b17ff071309d9))
+
 # [1.2.0](https://github.com/gauthierrodaro/sitemap/compare/v1.1.1...v1.2.0) (2021-03-20)
 
 

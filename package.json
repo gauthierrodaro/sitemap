@@ -1,6 +1,6 @@
 {
   "name": "@gaut/sitemap",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Script to generate sitemap for Next.js projects",
   "main": "src/index.js",
   "repository": "https://github.com/gauthierrodaro/sitemap",
