@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/gauthierrodaro/sitemap/compare/v1.1.1...v1.2.0) (2021-03-20)
+
+
+### Features
+
+* add posts to sitemap ([c90f7e1](https://github.com/gauthierrodaro/sitemap/commit/c90f7e1b86cbbe9f20228dbc006b4f54101e3b92))
+
 ## [1.1.1](https://github.com/gauthierrodaro/sitemap/compare/v1.1.0...v1.1.1) (2021-01-14)
 
 
