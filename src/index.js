@@ -5,7 +5,7 @@ const prettier = require("prettier")
 
 module.exports = {
   genSitemap: async (url) => {
-    const pages = await globby(["src/pages/*.{js,tsx}"])
+    const pages = await globby(["src/pages/*.{js,tsx}", "public/**/*.mdx"])
 
     const sitemap = `
         <?xml version="1.0" encoding="UTF-8"?>
@@ -16,6 +16,7 @@ module.exports = {
                   .replace("src/pages", "")
                   .replace(".tsx", "")
                   .replace(".js", "")
+                  .replace(".mdx", "")
               )
               .filter((path) => !["/_app", "/_document"].includes(path))
               .map((path) => {
