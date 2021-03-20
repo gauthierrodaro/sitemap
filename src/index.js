@@ -16,6 +16,7 @@ module.exports = {
                   .replace("src/pages", "")
                   .replace(".tsx", "")
                   .replace(".js", "")
+                  .replace("public/", "/")
                   .replace(".mdx", "")
               )
               .filter((path) => !["/_app", "/_document"].includes(path))
