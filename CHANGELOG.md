@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/gauthierrodaro/sitemap/compare/v1.2.1...v1.2.2) (2021-03-20)
+
+
+### Bug Fixes
+
+* mdx post support ([5604f31](https://github.com/gauthierrodaro/sitemap/commit/5604f31ff7be71c85043cb0586aeaacb2f469df4))
+
 ## [1.2.1](https://github.com/gauthierrodaro/sitemap/compare/v1.2.0...v1.2.1) (2021-03-20)
 
 
